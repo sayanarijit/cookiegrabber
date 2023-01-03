@@ -7,7 +7,7 @@
     <script>
       document.querySelector("#cookies").innerHTML = document.cookie
         .toString()
-        .replace("; ", "\n");
+        .replaceAll("; ", "\n");
     </script>
   </body>
 </html>
